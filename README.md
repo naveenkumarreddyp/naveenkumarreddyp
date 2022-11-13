@@ -1,4 +1,5 @@
-                                                  ### Hi I am Naveen 👋
+                                                  Hi 👋, I'm Naveen Kumar Reddy 
+                                                  I'm a Passionate Fullstack Developer
 
 🌱 I’m currently Working on NodeJs Api development with TypeScript
 
