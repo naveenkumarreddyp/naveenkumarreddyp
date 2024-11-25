@@ -34,7 +34,7 @@ const Home = () => {
               <Cursor cursorColor={textcolor}/>
             </h2>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5, delay: 0.4 }} className="flex flex-wrap gap-4">
-              <button className={`bg-indigo-500 text-white px-6 py-2 rounded-full transition-transform hover:scale-105`} onClick={() => window.open(personalData?.WhatsAppUrl, "_blank")}>
+              <button className={`bg-${bgcolor}-500 text-white px-6 py-2 rounded-full transition-transform hover:scale-105`} onClick={() => window.open(personalData?.WhatsAppUrl, "_blank")}>
                 Hire Me
               </button>
               <button
