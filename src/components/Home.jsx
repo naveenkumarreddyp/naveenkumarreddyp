@@ -31,10 +31,10 @@ const Home = () => {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">{personalData?.FullName}</h1>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6">
               <span>{text}</span>
-              <Cursor cursorColor={textcolor}/>
+              <Cursor cursorColor="indigo"/>
             </h2>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5, delay: 0.4 }} className="flex flex-wrap gap-4">
-              <button className={`bg-${bgcolor}-500 text-white px-6 py-2 rounded-full transition-transform hover:scale-105`} onClick={() => window.open(personalData?.WhatsAppUrl, "_blank")}>
+              <button className={`bg-indigo-500 text-white px-6 py-2 rounded-full transition-transform hover:scale-105`} onClick={() => window.open(personalData?.WhatsAppUrl, "_blank")}>
                 Hire Me
               </button>
               <button

@@ -21,7 +21,7 @@ const Experience = () => {
       }}
     >
       <div className="relative z-10 ">
-        <h2 className={`text-5xl font-bold text-center mb-16 text-${textcolor}-400`}>Experience</h2>
+        <h2 className={`text-5xl font-bold text-center mb-16 text-indigo-400`}>Experience</h2>
 
         <div className="max-w-4xl mx-auto relative">
           {/* Vertical Timeline Line */}

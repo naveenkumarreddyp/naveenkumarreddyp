@@ -19,7 +19,7 @@ const About = () => {
       }}
     >
       <div className="container mx-auto px-4">
-        <h2 className={`text-3xl font-bold text-center mb-16 md:text-5xl text-${textcolor}-400`}>
+        <h2 className={`text-3xl font-bold text-center mb-16 md:text-5xl text-indigo-400`}>
           {`<h2>`} About Me {`</h2>`}
         </h2>
         <div className="flex items-center justify-center">

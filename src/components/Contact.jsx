@@ -54,7 +54,7 @@ const Contact = () => {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className={`text-3xl md:text-4xl font-bold mb-16 mt-10 text-center text-${textcolor}-400`}
+          className={`text-3xl md:text-4xl font-bold mb-16 mt-10 text-center text-indigo-400`}
         >
           Contact
         </motion.h2>
@@ -71,16 +71,16 @@ const Contact = () => {
               <p>{personalData?.PhoneNumber}</p>
             </div>
             <div className="flex space-x-4">
-              <a href={personalData?.LinkedInUrl} target="_blank" className={`text-${textcolor}-400 hover:text-${textcolor}-300`}>
+              <a href={personalData?.LinkedInUrl} target="_blank" className={`text-indigo-400 hover:text-indigo-300`}>
                 <FaLinkedin className="text-2xl" />
               </a>
-              <a href={personalData?.GithubUrl} target="_blank" className={`text-${textcolor}-400 hover:text-${textcolor}-300`}>
+              <a href={personalData?.GithubUrl} target="_blank" className={`text-indigo-400 hover:text-indigo-300`}>
                 <FaGithub className="text-2xl" />
               </a>
-              <a href={personalData?.TwitterUrl} target="_blank" className={`text-${textcolor}-400 hover:text-${textcolor}-300`}>
+              <a href={personalData?.TwitterUrl} target="_blank" className={`text-indigo-400 hover:text-indigo-300`}>
                 <FaTwitter className="text-2xl" />
               </a>
-              <a href={personalData?.WhatsAppUrl} target="_blank" className={`text-${textcolor}-400 hover:text-${textcolor}-300`}>
+              <a href={personalData?.WhatsAppUrl} target="_blank" className={`text-indigo-400 hover:text-indigo-300`}>
                 <FaWhatsapp className="text-2xl" />
               </a>
             </div>
@@ -91,24 +91,24 @@ const Contact = () => {
                 <label htmlFor="name" className="block mb-2">
                   Name
                 </label>
-                <input type="text" id="name" name="name" className={`w-full px-3 py-2 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-${bgcolor}-400`} required />
+                <input type="text" id="name" name="name" className={`w-full px-3 py-2 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400`} required />
                 <ValidationError prefix="Name" field="name" errors={state.errors} />
               </div>
               <div>
                 <label htmlFor="email" className="block mb-2">
                   Email
                 </label>
-                <input type="email" id="email" name="email" className={`w-full px-3 py-2 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-${bgcolor}-400`} required />
+                <input type="email" id="email" name="email" className={`w-full px-3 py-2 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400`} required />
                 <ValidationError prefix="Email" field="email" errors={state.errors} />
               </div>
               <div>
                 <label htmlFor="message" className="block mb-2">
                   Message
                 </label>
-                <textarea id="message" name="message" rows={4} className={`w-full px-3 py-2 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-${bgcolor}-400`} required></textarea>
+                <textarea id="message" name="message" rows={4} className={`w-full px-3 py-2 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400`} required></textarea>
                 <ValidationError prefix="Message" field="message" errors={state.errors} />
               </div>
-              <button type="submit" className={`bg-${bgcolor}-500 hover:bg-${bgcolor}-600 text-white px-6 py-2 rounded-full transition-colors`} disabled={state.submitting}>
+              <button type="submit" className={`bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-2 rounded-full transition-colors`} disabled={state.submitting}>
                 {state.submitting ? "Submitting..." : "Submit"}
               </button>
             </form>

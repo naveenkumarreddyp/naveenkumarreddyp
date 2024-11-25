@@ -88,7 +88,7 @@ function Projects() {
       }}
     >
       <div className="w-full max-w-7xl px-4 py-12">
-        <h2 className={`text-4xl font-bold mb-12 text-center text-${textcolor}-400`}>Projects</h2>
+        <h2 className={`text-4xl font-bold mb-12 text-center text-indigo-400`}>Projects</h2>
         <div
           ref={carouselRef}
           className="relative overflow-hidden"
@@ -114,11 +114,11 @@ function Projects() {
                     <h3 className="text-xl font-semibold mb-2 text-white">{project.name}</h3>
                     <p className="text-gray-400 mb-4">{project.description}</p>
                     <div className="flex space-x-4">
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className={`text-${textcolor}-500 hover:text-${textcolor}-400 transition-colors flex items-center`}>
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className={`text-indigo-500 hover:text-indigo-400 transition-colors flex items-center`}>
                         <FaGithub className="mr-2" />
                         GitHub
                       </a>
-                      <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className={`text-${textcolor}-500 hover:text-${textcolor}-400 transition-colors flex items-center`}>
+                      <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className={`text-indigo-500 hover:text-indigo-400 transition-colors flex items-center`}>
                         <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
@@ -136,7 +136,7 @@ function Projects() {
             {projects.map((_, index) => (
               <button
                 key={index}
-                className={`w-3 h-3 rounded-full mx-1 ${index === currentIndex ? `bg-${bgcolor}-500` : "bg-gray-400"}`}
+                className={`w-3 h-3 rounded-full mx-1 ${index === currentIndex ? `bg-indigo-500` : "bg-gray-400"}`}
                 onClick={() => setCurrentIndex(index)}
                 aria-label={`Go to project ${index + 1}`}
               />

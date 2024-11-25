@@ -86,7 +86,7 @@ export default function Portfolio() {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  className={`block py-2 px-4 cursor-pointer transition-colors duration-300 hover:text-${textcolor}-500 ${activeSection === name.toLowerCase() ? `text-${textcolor}-500` : ""}`}
+                  className={`block py-2 px-4 cursor-pointer transition-colors duration-300 hover:text-indigo-500 ${activeSection === name.toLowerCase() ? `text-indigo-500` : ""}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {name}
