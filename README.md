@@ -28,7 +28,7 @@
   <br/>
 
 <h3 align="left">Connect with me:</h3>
-<a href="https://linkedin.com/in/naveenkumarreddyp" rel="linkedinfollow"><img align="center" src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" alt="naveenkumarreddyp" height="100" width="100" style="max-width: 100%;"></a>
+<a href="https://linkedin.com/in/naveenkumarreddyp" target="_blank" rel="linkedinfollow"><img align="center" src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" alt="naveenkumarreddyp" height="100" width="100" style="max-width: 100%;"></a>
 <p align="left">
 </p>
 
