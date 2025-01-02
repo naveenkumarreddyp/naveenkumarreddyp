@@ -16,7 +16,7 @@ export const personalData = {
   TwitterUrl: "https://twitter.com/",
   GithubUrl: "https://github.com/naveenkumarreddyp/",
   WhatsAppUrl: "https://api.whatsapp.com/send/?phone=%2B918096842990&text=Hi&type=phone_number&app_absent=0",
-  ResumePath: "https://drive.google.com/file/d/103d75xZ3y3LZ7N2N2ea6uc88drFEppOr/view?usp=sharing",
+  ResumePath: "https://drive.google.com/file/d/1YQY72BledrR_Ztol2Ui4tJxLAVHLDerN/view?usp=sharing",
   ResumeDownloadFileName: "NAVEEN_KUMAR_REDDY_P.pdf",
   HomePageDeveloperIllustration: "https://res.cloudinary.com/navcloudin/image/upload/v1732452459/Portfolio-Developer-Illustration.png",
   ProjectsData: [
