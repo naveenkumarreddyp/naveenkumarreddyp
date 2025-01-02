@@ -10,7 +10,7 @@ export const personalData = {
   TextColor: "indigo",
   Name: "Naveen",
   FullName: "Naveen Kumar Reddy P",
-  Email: "naveenreddyp9580@gmail.com",
+  Email: "naveen.p9580@gmail.com",
   PhoneNumber: "+91-8096842990",
   LinkedInUrl: "https://www.linkedin.com/in/naveenkumarreddyp",
   TwitterUrl: "https://twitter.com/",
