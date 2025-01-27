@@ -24,7 +24,7 @@ export const personalData = {
       name: "Weather Pulse",
       description: "Get real-time weather updates and forecasts with our user-friendly weather app.",
       image: "https://res.cloudinary.com/navcloudin/image/upload/v1732550677/WeatherPulseScreen.png?height=300&width=400",
-      projectLink: "https://master.d3csghc0js9fax.amplifyapp.com/",
+      projectLink: "https://weather-pulse-gamma.vercel.app/",
       githubUrl: "https://github.com/naveenkumarreddyp?tab=repositories",
     },
     {
