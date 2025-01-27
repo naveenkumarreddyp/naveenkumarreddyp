@@ -38,7 +38,7 @@ export const personalData = {
       name: "Inventory Management and Billing",
       description: "Streamline your inventory tracking, management and billing with our intuitive app.",
       image: "https://res.cloudinary.com/navcloudin/image/upload/v1732550721/InventoryAppScreen.png?height=300&width=400",
-      projectLink: "https://staging.d2oskg4us4kfei.amplifyapp.com/",
+      projectLink: "https://inventorymanagement-ecru.vercel.app/",
       githubUrl: "https://github.com/naveenkumarreddyp?tab=repositories",
     },
   ],
