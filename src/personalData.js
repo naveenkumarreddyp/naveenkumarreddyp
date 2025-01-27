@@ -31,7 +31,7 @@ export const personalData = {
       name: "Split The Bills App",
       description: "Effortlessly split bills, track expenses with friends using our app.",
       image: "https://res.cloudinary.com/daxjgy2bv/image/upload/v1732430424/uolm17v44alz6uagw1fa.png?height=300&width=400",
-      projectLink: "https://billsplittingapp-one.vercel.app/login",
+      projectLink: "https://billsplittingapp-one.vercel.app/",
       githubUrl: "https://github.com/naveenkumarreddyp?tab=repositories",
     },
     {
